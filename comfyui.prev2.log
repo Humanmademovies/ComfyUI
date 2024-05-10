@@ -1,0 +1,58 @@
+** ComfyUI startup time: 2024-04-07 11:41:55.904633
+[2024-04-07 11:41] ** Platform: Linux
+[2024-04-07 11:41] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-04-07 11:41] ** Python executable: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/.venv/bin/python
+[2024-04-07 11:41] ** Log path: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/comfyui.log
+[2024-04-07 11:41] 
+Prestartup times for custom nodes:
+[2024-04-07 11:41]    0.3 seconds: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/ComfyUI-Manager
+[2024-04-07 11:41] 
+Total VRAM 11157 MB, total RAM 32020 MB
+[2024-04-07 11:41] Set vram state to: NORMAL_VRAM
+[2024-04-07 11:41] Device: cuda:0 NVIDIA GeForce GTX 1080 Ti : cudaMallocAsync
+[2024-04-07 11:41] VAE dtype: torch.float32
+[2024-04-07 11:42] Using pytorch cross attention
+[2024-04-07 11:42] ### Loading: ComfyUI-Impact-Pack (V4.87)
+[2024-04-07 11:42] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-04-07 11:42] [AnimateDiffEvo] - [0;31mERROR[0m - No motion models found. Please download one and place in: ['/home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/ComfyUI-AnimateDiff-Evolved/models', '/home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/models/animatediff_models']
+[2024-04-07 11:42] [Impact Pack] Wildcards loading done.
+[2024-04-07 11:42] ------------------------------------------
+[2024-04-07 11:42] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-04-07 11:42] ------------------------------------------
+[2024-04-07 11:42] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-04-07 11:42] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-04-07 11:42] ------------------------------------------
+[2024-04-07 11:42] ### Loading: ComfyUI-Manager (V2.15)
+[2024-04-07 11:42] ### ComfyUI Revision: 2115 on 'MSP-Pipe' [0a030098] | Released on '2024-04-06'
+[2024-04-07 11:42] [36;20m[inference_core_nodes.controlnet_preprocessors] | INFO -> Using ckpts path: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/ComfyUI-Inference-Core-Nodes/src/inference_core_nodes/controlnet_preprocessors/ckpts[0m
+[2024-04-07 11:42] [36;20m[inference_core_nodes.controlnet_preprocessors] | INFO -> Using symlinks: False[0m
+[2024-04-07 11:42] [36;20m[inference_core_nodes.controlnet_preprocessors] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-04-07 11:42] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-04-07 11:42] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-04-07 11:42] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-04-07 11:42] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-04-07 11:42] DWPose: Onnxruntime with acceleration providers detected
+[2024-04-07 11:42] [36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/comfyui_controlnet_aux/ckpts[0m
+[2024-04-07 11:42] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-04-07 11:42] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-04-07 11:42] 
+Import times for custom nodes:
+[2024-04-07 11:42]    0.0 seconds: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/websocket_image_save.py
+[2024-04-07 11:42]    0.0 seconds: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/ComfyUI-Advanced-ControlNet
+[2024-04-07 11:42]    0.0 seconds: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/ComfyUI-AnimateDiff-Evolved
+[2024-04-07 11:42]    0.0 seconds: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/comfyui_controlnet_aux
+[2024-04-07 11:42]    0.0 seconds: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+[2024-04-07 11:42]    0.0 seconds: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/ComfyUI_IPAdapter_plus
+[2024-04-07 11:42]    0.0 seconds: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/ComfyUI_JPS-Nodes
+[2024-04-07 11:42]    0.2 seconds: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/ComfyUI-Manager
+[2024-04-07 11:42]    1.1 seconds: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/ComfyUI-Inference-Core-Nodes
+[2024-04-07 11:42]    1.5 seconds: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/ComfyUI-Impact-Pack
+[2024-04-07 11:42]    3.4 seconds: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/ComfyUI-VideoHelperSuite
+[2024-04-07 11:42] 
+[2024-04-07 11:42] Starting server
+
+[2024-04-07 11:42] To see the GUI go to: http://127.0.0.1:8188
+[2024-04-07 11:42] FETCH DATA from: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-07 12:34] FETCH DATA from: /home/will/Documents/GitHub/ComfyUI?tab=readme-ov-file#installing/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-04-07 19:09] 
+Stopped server
